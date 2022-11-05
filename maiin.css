@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Nunito',normal;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    height: 85px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.first__logotype {
+    margin-top: 31px;
+}
+
+.first__logotype,
+.first__nav {
+    float: left;
+}
+
+.first__nav {
+    margin-top: 30px;
+}
+
+.first__login {
+    float: right;
+    margin-top: 17px;
+}
+
+.first__login a {
+    margin-top: 13px;
+    display: inline-block;
+    margin-right: 55px;
+    text-decoration: none;
+}
+
+.first__login .button {
+    margin-top: 0;
+    color: #fff;
+    margin-right: 0;
+}
+
+.first__logotype {
+    margin-right: 170px;
+}
+
+.first__nav ul {
+    list-style: none;
+}
+
+.first__nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.first__nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.link {
+    color: #292929;
+    text-decoration: none;
+    transition: all .2s;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+    border-bottom: 1px solid #292929;
+}
+
+.link:active {
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+
+.button {
+
+    padding: 13px 50px;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color .2s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button_big {
+    padding: 20px 50px;
+}
+
+.button:hover {
+    background-color: #018E65;
+}
+
+.button:active {
+    background-color: #01845E;
+}
+
+.first__mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    .header {
+        height: 128px;
+    }
+
+    .first__nav {
+        margin-top: 17px;
+        width: 100%;
+    }
+
+    .first__nav ul li {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper {
+        width: 290px;
+    }
+
+    .header {
+        height: 357px;
+    }
+
+    .first__logotype,
+    .first__nav,
+    .first__login {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .first__login .link,
+    .first__nav {
+        display: none;
+    }
+
+    .first__mobile {
+        display: block;
+        margin-top: 24px;
+    }
+
+    .first__mobile ul {
+        list-style: none;
+    }
+
+    .first__login .button {
+        margin-top: 40px;
+    }
+
+    .first__mobile ul li {
+        margin-bottom: 10px;
+    }
+
+    .first__mobile ul li:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6, h7, h8,p {
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 87%;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+h5 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+h6 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+h7 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+h8 {
+    font-size: 36px;
+    line-height: 88%;
+}
+
+
+.about {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.about__left, .about__right {
+    width: 50%;
+    float: left;
+}
+
+.about__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.about p {
+    margin-top: 24px;
+}
+
+.about .button {
+    margin-top: 50px;
+}
+
+.year {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.year__left, .year__right {
+    width: 50%;
+    float: right;
+}
+
+.year__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.year p {
+    margin-left: 200px;
+    margin-top: 24px;
+}
+
+.year h2 {
+    margin-left: 200px;
+}
+.year .button {
+    margin-top: 50px;
+}
+
+
+.care {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.care__left, .care__right {
+    width: 50%;
+    float: left;
+}
+
+.care__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.care p {
+    margin-top: 24px;
+}
+
+.care .button {
+    margin-top: 50px;
+}
+
+.hiro{
+
+}
+
+.cash {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.cash__left, .cash__right {
+margin: 0 auto;
+width: 584px;
+height: 294px;
+}
+
+.cash__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+.ser{
+    margin: 0 auto;
+
+}
+
+.cash p {
+    margin-top: 24px;
+}
+
+.cash .button {
+    margin-top: 50px;
+}
+
+.shop {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.shop__left, .shop__right {
+    width: 50%;
+    float: left;
+}
+
+.shop__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.shop p {
+    margin-top: 24px;
+}
+
+.shop .button {
+    margin-top: 50px;
+}
+
+
+
+.fees {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.fees__left, .fees__right {
+    width: 50%;
+    float: right;
+}
+
+.fees__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.fees p {
+    margin-top: 24px;
+}
+
+
+
+
+.many {
+    margin: 150px 0;
+    overflow: hidden;
+
+}
+
+.many__left, .many__right {
+    width: 50%;
+    float: left;
+}
+
+.many__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.many p {
+    margin-top: 24px;
+}
+
+.many .button {
+    margin-top: 50px;
+}
+
+
+
+.easy {
+    margin: 150px 0;
+    overflow: hidden;
+
+}
+
+.easy__left, .easy__right {
+    width: 50%;
+    float: right;
+}
+
+.easy__right img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.easy p {
+    margin-top: 24px;
+}
+
+.easy .button {
+    margin-top: 24px;
+}
+
+
+
+/* Подвал */
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 14%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #222222;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
