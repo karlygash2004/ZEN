@@ -16,165 +16,116 @@ body {
     margin: 0 auto;
 }
 
-
-.header {
-    height: 85px;
-    border-bottom: 1px solid #D6D6D6;
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    font-family: Nunito;
+    width: 100%;
+    height: 78px;
+}
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
 }
 
-.first__logotype {
-    margin-top: 31px;
-}
-
-.first__logotype,
-.first__nav {
+.cryg {
+    background-image: url(./imaag/Vector.png);
+    width: 38px;
+    border-radius: 50%;
+    height: 38px;
     float: left;
+    margin-left:340px ; 
+transition: all 0.07s ease-in-out;
+
+background-repeat: no-repeat;
+
+
+}  
+.cryg:hover {
+    opacity: 0.7;
+
 }
 
-.first__nav {
-    margin-top: 30px;
-}
-
-.first__login {
-    float: right;
-    margin-top: 17px;
-}
-
-.first__login a {
-    margin-top: 13px;
+.navbar-menu li {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-bottom: 0%;
     display: inline-block;
-    margin-right: 55px;
-    text-decoration: none;
-}
+    padding: 10px;
+    right: 50%;
+    
+    
+    
 
-.first__login .button {
-    margin-top: 0;
-    color: #fff;
-    margin-right: 0;
 }
-
-.first__logotype {
-    margin-right: 170px;
-}
-
-.first__nav ul {
-    list-style: none;
-}
-
-.first__nav ul li {
+.navbar-menu_2 li  {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-bottom: 0%;
     display: inline-block;
-    margin-right: 30px;
+    padding: 10px;
+    color: black;
+    
+
+    
 }
-
-.first__nav ul li:last-of-type {
-    margin-right: 0;
-}
-
-.link {
-    color: #292929;
-    text-decoration: none;
-    transition: all .2s;
-    padding-bottom: 4px;
-    border-bottom: 1px solid transparent;
-}
-
-.link:hover {
-    border-bottom: 1px solid #292929;
-}
-
-.link:active {
-    color: #404040;
-    border-bottom: 1px solid #404040;
-}
-
-.button {
-
-    padding: 13px 50px;
-    border-radius: 4px;
-    color: #fff;
-    transition: background-color .2s;
+.navbar-menu_2 li a  {
     display: inline-block;
     text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: all 0.07s ease-in-out;
+}
+.navbar-menu_2 li a:hover {
+    opacity:0.8
+   
+    
+
+}
+.navbar-menu li a {
+   
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: all 0.07s ease-in-out;
+    margin-right: 60%;
+
+}
+.navbar-menu li a:hover {
+    opacity:0.8
+   
+    
+
+}
+.navbar-wrap {
+    display:flex;
+    flex-flow:  row nowrap;
+    padding: 10px;
+   
+}
+.callback
+{ margin-left: 30px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: white;
+    border-radius: 80px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 15px;
+    margin-top: 5px;
+    align-items: center;
+    
 }
 
-.button_big {
-    padding: 20px 50px;
-}
 
-.button:hover {
-    background-color: #018E65;
-}
-
-.button:active {
-    background-color: #01845E;
-}
-
-.first__mobile {
-    display: none;
-}
-
-@media (max-width: 1024px) {
-    .wrapper {
-        width: 768px;
-    }
-
-    .header {
-        height: 128px;
-    }
-
-    .first__nav {
-        margin-top: 17px;
-        width: 100%;
-    }
-
-    .first__nav ul li {
-        margin-right: 150px;
-    }
-}
-
-@media (max-width: 320px) {
-    .wrapper {
-        width: 290px;
-    }
-
-    .header {
-        height: 357px;
-    }
-
-    .first__logotype,
-    .first__nav,
-    .first__login {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-
-    .first__login .link,
-    .first__nav {
-        display: none;
-    }
-
-    .first__mobile {
-        display: block;
-        margin-top: 24px;
-    }
-
-    .first__mobile ul {
-        list-style: none;
-    }
-
-    .first__login .button {
-        margin-top: 40px;
-    }
-
-    .first__mobile ul li {
-        margin-bottom: 10px;
-    }
-
-    .first__mobile ul li:last-of-type {
-        margin-bottom: 0;
-    }
-}
 
 
 /* Заголовки */
@@ -432,7 +383,7 @@ height: 294px;
 /* Подвал */
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: auto;
 }
 
